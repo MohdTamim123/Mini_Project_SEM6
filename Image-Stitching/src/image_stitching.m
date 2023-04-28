@@ -7,7 +7,8 @@ Code influenced (and restructured) from:
 
 % read images
 % ADD 600*650 resolution images IN ORDER!
-%figure(App().fig) ; clf;
+%figure(App().fig) ; clf; 
+run("../vlfeat-0.9.21/toolbox/vl_setup")
 im1=imread('../data/1.JPG');
 im2=imread('../data/2.JPG');
 im3=imread('../data/3.JPG');    
